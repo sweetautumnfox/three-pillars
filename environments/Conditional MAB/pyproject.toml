@@ -1,0 +1,19 @@
+[project]
+name = "conditional-mab"
+version = "0.1.0"
+description = "Non-stationary conditional deterministic Multi-Armed Bandit environment"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium>=0.29.0",
+    "numpy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["conditional_mab*"]

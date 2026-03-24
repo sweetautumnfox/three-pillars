@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: conditional-mab
+Version: 0.1.0
+Summary: Non-stationary conditional deterministic Multi-Armed Bandit environment
+Requires-Python: >=3.10
+Requires-Dist: gymnasium>=0.29.0
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
